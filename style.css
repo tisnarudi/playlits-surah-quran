@@ -1,0 +1,161 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  min-height:100vh;
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+ display:flex;
+ flex-direction:column; 
+}
+
+* {
+  box-sizing: border-box;  
+}
+
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+   text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+/* selected link */
+a:active {
+  color: #cdfeaa;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+header {
+text-align: center;	
+}
+
+header h1 {
+font-size: 2em;
+}
+
+main {
+	width: 100%;
+	margin-bottom: 5em;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  display:block;
+}
+
+ .about {
+  width: 70%;
+  margin: 0 auto;
+  display:block;
+} 
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.hidden {
+display: none;
+}
+
+img
+{
+  max-width:100%;
+  height: auto;
+  display:block;
+  }
+ 
+ ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+padding:0;
+list-style-type:none;
+}
+
+.trackList li {
+	margin-top: 1em;
+	border-top: 1px solid #e6e7e7;
+}
+
+.arabic {
+	margin: .5em 0;
+	float: right;
+ }
+
+ span.circle{
+  background: #666;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+.transliteration {
+  clear: right;
+  background-color: #f1f1f1;
+padding:.5em;  
+}
+
+.translation {	
+margin-top: .5em;
+text-align: left;
+}
+
+  button {
+  background: none;
+  border: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  cursor: pointer
+  }
+
+footer {
+  border-top: 1px solid #efefef;
+  margin-top: auto;
+  text-align: center;
+}
